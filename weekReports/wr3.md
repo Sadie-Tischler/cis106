@@ -41,6 +41,75 @@ Redistribute your own modified version of software
 Virtualization is creating virtual versions of something, such as multiple operating systems on one computer.
 
 * **List 3 benefits of virtualization**
+Allowing multiple operating systems on one computer without dual booting
 
-What is a hypervisor?
-What is virtualbox
+Allowing applications to be tested in a sandboxed environment before running them on the host machine
+
+Allowing software that can only run on one type of operating system to be used on a different one
+
+* **What is a hypervisor?**
+Software that creates, maintains, and runs virtual machines
+
+* **What is virtualbox**
+Virtualbox is an open source software for creating and running virtual machines.
+
+## Exploring Desktop Environments
+
+* **What is a desktop environment? (Provide 3 examples)**
+A desktop environment is a GUI running on the computer's operating system to make interacting with the operating system possible without the terminal. Commonly used desktop environments in Linux are GNOME, KDE, and XFCE.
+
+* **List 4 common elements of desktop environments**
+File manager, display manager, panels, and window manager
+
+* **What is Ubuntu’s default desktop environments?**
+GNOME, KDE, LXQt, Budgie, Cinnamon, UKUI, Mate, Xfce
+
+* **What are the official flavors of Ubuntu?**
+Edubuntu, Kubuntu, Lubuntu, Ubuntu Budgie, Ubuntu Cinnamon, Ubuntu Kylin, Ubuntu MATE, Ubuntu Studio, Ubuntu Unity, and Xubuntu.
+
+## What is a Shell?
+
+* **What is Bash?**
+Bash is a Unix shell for the GNU Project used as the default shell program for the majority of Linux distributions.
+
+* **How do you access the Linux CLI?**
+Either by using Linux in text mode or using a terminal emulator.
+
+* **What is a console terminal?**
+An interface that provides a way of interacting with a computer through text.
+
+* **What is a terminal emulator?**
+A program that allows you to access the CLI if you are using a GUI desktop environment.
+
+* **Provide 3 examples of Linux commands**
+date
+cd
+clear
+
+## Managing Software
+
+* **Which command is used for updating ubuntu**
+sudo apt update
+
+* **Which command is used for installing software. Provide an example.**
+sudo apt install 'software name'
+
+Ex: sudo apt install mpv
+
+* **Which command is used for removing software. Provide an example.**
+sudo apt remove 'software name'
+
+Ex: sudo apt remove mpv
+
+* **Which command is used for searching for software. Provide an example.**
+sudo apt search 'software name'
+
+Ex: sudo apt search mpv
+
+* **Definition of the following terms:**
+
+Package: An archive that contains all of the binaries of software, config files, and information about dependencies needed to install a software.
+
+Library: A library is a collection of reusable code that can be used by multiple programs or functions.
+
+Repository: A collection of software hosted on a server that is available to download.
